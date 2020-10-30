@@ -12,8 +12,8 @@ namespace ThirdPartyLibrary
     {
         public static void ImplimentatonDataHandling()
         {
-            string ImportFilePath = @"C:\Users\Puja\Documents\New Folder\ThirdPartyLibraryProject\ThirdPartyLibraryProject\address.csv";
-            string ExportFilePath = @"C:\Users\Puja\Documents\New Folder\ThirdPartyLibraryProject\ThirdPartyLibraryProject\address.csv";
+            string ImportFilePath = @"D:\ThirdPartyLibrary\ThirdPartyLibrary\ThirdPartyLibrary\Utility\address.csv";
+            string ExportFilePath = @"D:\ThirdPartyLibrary\ThirdPartyLibrary\ThirdPartyLibrary\Utility\address.csv";
             using (var reader = new StreamReader(ImportFilePath))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
